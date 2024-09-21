@@ -11,8 +11,12 @@ function App() {
     <>
       <h1 className='bg-green-500 p-4 rounded-2xl mb-6'>Tailwind Test</h1>
 
+      <div className='grid grid-cols-4 gap-4' >
       <Card username="Alice" btnText="See more"/>
       <Card username="Michelle" />
+      <Card username="Layla" />
+      <Card username="Rose" />
+      </div>
     </>
   )
 }
